@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+    <link rel="stylesheet" href="style/style.css" />
+    <title>Frontend Mentor | Intro component with sign up form</title>
+  </head>
+  <body>
+    <main class="container">
+      <section class="intro">
+        <div class="intro__content">
+          <h1 class="heading">Learn to code by watching others.</h1>
+          <p class="intro__description">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit.
+            Voluptatibus possimus perferendis placeat sint fugit obcaecati,
+            laudantium.
+          </p>
+        </div>
+      </section>
+      <section class="suscription">
+        <div class="card">
+          <p><span>Try it free 7 days</span> then 20$/mo. thereafter</p>
+        </div>
+
+        <form class="form">
+          <input type="text" class="first-name" placeholder="first name" required/>
+          <input type="text" class="last-name" placeholder="Last Name" required/>
+          <input type="email" class="email" placeholder="Email Address" required/>
+          <input type="password" class="password" placeholder="Password" required/>
+
+          <div class="submit-section">
+            <input
+              class="btn-submit"
+              type="submit"
+              value="claim your free trail"
+            />
+            <p class="terms-and-services">
+              By clicking the button,you are agreeing to our
+              <span>Terms and services</span>
+            </p>
+          </div>
+        </form>
+      </section>
+    </main>
+    <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+    <script src="app.js"></script>
+  </body>
+</html>
